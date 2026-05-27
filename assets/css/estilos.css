@@ -1,0 +1,593 @@
+/* =========================================================
+   PALETA DE COLORES Y VARIABLES GLOBALES
+   Colores principales reutilizables del sitio web
+========================================================= */
+:root {
+
+    --negro: #0b0f19;
+    --gris-oscuro: #1b263b;
+
+    --neon: #00f5ff;
+    --morado: #7b2cbf;
+
+    --blanco: #ffffff;
+
+    --fondo: #0f172a;
+
+    --texto: #dbe4ee;
+    --texto-secundario: #cbd5e1;
+    --texto-muted: #94a3b8;
+
+    --glass: rgba(255, 255, 255, 0.05);
+}
+
+
+/* =========================================================
+   ESTILO GENERAL DE LA PÁGINA
+   Fondo principal, tipografía y configuración base
+========================================================= */
+body {
+
+    background-color: var(--fondo);
+
+    color: var(--texto);
+
+    font-family: 'Segoe UI', sans-serif;
+
+    overflow-x: hidden;
+}
+
+
+/* =========================================================
+   TIPOGRAFÍA GENERAL
+   Estilos globales para textos y enlaces
+========================================================= */
+
+/* TITULOS PRINCIPALES */
+h1,
+h2,
+h3,
+h4,
+h5 {
+
+    color: white;
+
+    font-weight: 700;
+}
+
+/* PÁRRAFOS */
+p {
+
+    color: var(--texto-secundario);
+
+    line-height: 1.7;
+}
+
+/* TEXTO SECUNDARIO */
+.text-muted {
+
+    color: var(--texto-muted) !important;
+}
+
+/* TEXTO DESTACADO */
+.text-primary {
+
+    color: var(--neon) !important;
+}
+
+/* ENLACES */
+a {
+
+    color: var(--neon);
+
+    transition: 0.3s ease;
+}
+
+a:hover {
+
+    color: white;
+}
+
+
+/* =========================================================
+   NAVBAR / BARRA DE NAVEGACIÓN
+   Diseño futurista del menú principal
+========================================================= */
+.navbar {
+
+    background: linear-gradient(
+        135deg,
+        var(--gris-oscuro),
+        var(--negro)
+    );
+
+    border-radius: 18px;
+
+    backdrop-filter: blur(10px);
+
+    box-shadow:
+        0 0 20px rgba(0, 245, 255, 0.08);
+}
+
+/* LINKS DEL NAVBAR */
+.navbar .nav-link {
+
+    color: white !important;
+
+    transition: 0.3s ease;
+}
+
+/* EFECTO HOVER EN LINKS */
+.navbar .nav-link:hover {
+
+    color: var(--neon) !important;
+}
+
+/* LINK ACTIVO */
+.navbar .nav-link.active {
+
+    border-bottom: 2px solid var(--neon);
+}
+
+
+/* =========================================================
+   DROPDOWN MENU
+   Menú desplegable del navbar
+========================================================= */
+
+/* MOSTRAR DROPDOWN AL PASAR EL MOUSE */
+.navbar .dropdown:hover .dropdown-menu {
+
+    display: block;
+
+    margin-top: 0;
+}
+
+/* CONTENEDOR DROPDOWN */
+.dropdown-menu {
+
+    background-color: #111827;
+
+    border: 1px solid rgba(255,255,255,0.08);
+
+    border-radius: 15px;
+}
+
+/* ITEMS DEL DROPDOWN */
+.dropdown-item {
+
+    color: #e2e8f0;
+
+    transition: 0.3s ease;
+}
+
+/* HOVER ITEMS */
+.dropdown-item:hover {
+
+    background-color: #1e293b;
+
+    color: var(--neon);
+}
+
+
+/* =========================================================
+   HEADER / HERO PRINCIPAL
+   Sección de bienvenida o presentación principal
+========================================================= */
+header {
+
+    background: linear-gradient(
+        135deg,
+        #111827,
+        #1e293b
+    );
+
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+
+    padding: 80px 20px;
+
+    text-align: center;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+/* EFECTO DE LUZ NEÓN DECORATIVA */
+header::before {
+
+    content: "";
+
+    position: absolute;
+
+    width: 400px;
+    height: 400px;
+
+    background: var(--neon);
+
+    filter: blur(120px);
+
+    opacity: 0.08;
+
+    top: -100px;
+    left: -100px;
+}
+
+
+/* =========================================================
+   SECCIONES GENERALES
+   Espaciado y fondos alternos
+========================================================= */
+
+/* ESPACIADO ENTRE SECCIONES */
+.section {
+
+    padding: 80px 0;
+}
+
+/* FONDO OSCURO */
+.section-pastel {
+
+    background-color: #111827;
+}
+
+/* FONDO ALTERNATIVO */
+.section-rosa {
+
+    background-color: #1e293b;
+}
+
+
+/* =========================================================
+   TARJETAS FUTURISTAS
+   Cards con efecto glassmorphism
+========================================================= */
+.card {
+
+    background: rgba(255, 255, 255, 0.03);
+
+    border: 1px solid rgba(255, 255, 255, 0.05);
+
+    border-radius: 24px;
+
+    backdrop-filter: blur(12px);
+
+    color: white;
+
+    transition: 0.4s ease;
+
+    overflow: hidden;
+}
+
+/* EFECTO HOVER EN TARJETAS */
+.card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 0 25px rgba(0, 245, 255, 0.15);
+}
+
+/* TEXTO DENTRO DE TARJETAS */
+.card p {
+
+    color: var(--texto-secundario);
+}
+
+
+/* =========================================================
+   BOTONES PRINCIPALES
+   Diseño neón moderno
+========================================================= */
+.btn-primary {
+
+    background: linear-gradient(
+        135deg,
+        var(--neon),
+        var(--morado)
+    );
+
+    border: none;
+
+    border-radius: 30px;
+
+    color: white;
+
+    font-weight: 600;
+
+    transition: 0.3s ease;
+
+    padding: 10px 22px;
+}
+
+/* HOVER DEL BOTÓN */
+.btn-primary:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow:
+        0 0 20px rgba(0, 245, 255, 0.4);
+
+    color: white;
+}
+
+
+/* =========================================================
+   BOTÓN VIP
+   Botón con glow futurista extra
+========================================================= */
+.btn-vip {
+
+    transition: all 0.3s ease;
+}
+
+/* EFECTO HOVER VIP */
+.btn-vip:hover {
+
+    transform: translateY(-4px);
+
+    box-shadow:
+        0 0 25px rgba(0, 245, 255, 0.35);
+}
+
+
+/* =========================================================
+   CARRUSEL DE IMÁGENES
+   Slider principal del sitio
+========================================================= */
+
+/* IMÁGENES DEL CARRUSEL */
+.carousel-item img {
+
+    height: 85vh;
+
+    object-fit: cover;
+
+    border-radius: 20px;
+}
+
+/* TEXTO DEL CARRUSEL */
+.carousel-caption {
+
+    background: rgba(0, 0, 0, 0.45);
+
+    backdrop-filter: blur(10px);
+
+    padding: 25px;
+
+    border-radius: 20px;
+}
+
+
+/* =========================================================
+   CONTENEDOR DE IMAGENES
+   Centrado y posicionamiento visual
+========================================================= */
+.imagen-contenedor {
+
+    position: relative;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* =========================================================
+   FONDO DECORATIVO NEÓN
+   Glow detrás de imágenes premium
+========================================================= */
+.fondo-decorado {
+
+    position: absolute;
+
+    width: 95%;
+    height: 95%;
+
+    background: linear-gradient(
+        135deg,
+        var(--neon),
+        var(--morado)
+    );
+
+    border-radius: 35px;
+
+    top: 25px;
+    left: -25px;
+
+    z-index: 1;
+
+    opacity: 0.18;
+
+    transform: rotate(-4deg);
+
+    filter: blur(5px);
+}
+
+
+/* =========================================================
+   IMAGEN VIP
+   Imagen destacada con glow y zoom
+========================================================= */
+.imagen-vip {
+
+    position: relative;
+
+    z-index: 2;
+
+    overflow: hidden;
+
+    border-radius: 30px;
+
+    animation: aparecerIzquierda 1s ease;
+
+    box-shadow:
+        0 0 30px rgba(0, 245, 255, 0.1);
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+/* IMAGEN INTERNA */
+.imagen-vip img {
+
+    width: 125%;
+
+    max-width: 125%;
+
+    border-radius: 30px;
+
+    object-fit: cover;
+
+    transition: transform 0.5s ease;
+}
+
+/* EFECTO ZOOM */
+.imagen-vip:hover img {
+
+    transform: scale(1.06);
+}
+
+
+/* =========================================================
+   TEXTO VIP
+   Animación de aparición lateral
+========================================================= */
+.texto-vip {
+
+    animation: aparecerDerecha 1s ease;
+}
+
+
+/* =========================================================
+   GLASS EFFECT
+   Tarjetas transparentes estilo vidrio
+========================================================= */
+.glass-card {
+
+    background: rgba(255, 255, 255, 0.04);
+
+    backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.08);
+
+    color: white;
+}
+
+
+/* =========================================================
+   FOOTER / PIE DE PÁGINA
+   Información final y enlaces
+========================================================= */
+footer {
+
+    background: linear-gradient(
+        135deg,
+        var(--negro),
+        var(--gris-oscuro)
+    );
+
+    color: white;
+
+    border-radius: 25px;
+
+    margin: 20px;
+
+    padding: 50px 20px;
+
+    box-shadow:
+        0 0 20px rgba(0, 245, 255, 0.08);
+}
+
+/* TEXTO FOOTER */
+footer p,
+footer li {
+
+    color: var(--texto-secundario);
+}
+
+/* TITULOS FOOTER */
+.footer h5 {
+
+    margin-bottom: 15px;
+
+    color: white;
+}
+
+/* LISTAS FOOTER */
+.footer ul {
+
+    list-style: none;
+
+    padding: 0;
+}
+
+/* ITEMS FOOTER */
+.footer ul li {
+
+    margin-bottom: 8px;
+}
+
+/* LINKS FOOTER */
+.footer a {
+
+    color: var(--neon);
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+/* HOVER LINKS FOOTER */
+.footer a:hover {
+
+    color: white;
+}
+
+
+/* =========================================================
+   ANIMACIONES
+   Efectos de entrada suaves
+========================================================= */
+
+/* APARECER DESDE LA DERECHA */
+@keyframes aparecerDerecha {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateX(80px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+    }
+}
+
+/* APARECER DESDE LA IZQUIERDA */
+@keyframes aparecerIzquierda {
+
+    from {
+
+        opacity: 0;
+
+        transform: translateX(-80px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform: translateX(0);
+    }
+}

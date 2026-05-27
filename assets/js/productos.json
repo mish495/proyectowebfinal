@@ -1,0 +1,292 @@
+[
+  {
+    "id": 1,
+    "categoria": "pcs",
+    "nombre": "PC Gamer Pro",
+    "descripcion": "Ryzen 5, 16GB RAM, SSD 512GB, RTX 3060",
+    "precio": 850000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs1.jpg"
+  },
+  {
+    "id": 2,
+    "categoria": "pcs",
+    "nombre": "PC Oficina Plus",
+    "descripcion": "Intel i5, 8GB RAM, SSD 256GB",
+    "precio": 420000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs2.jpg"
+  },
+  {
+    "id": 3,
+    "categoria": "pcs",
+    "nombre": "PC Gamer Ultra",
+    "descripcion": "Ryzen 7, 32GB RAM, SSD 1TB, RTX 4070",
+    "precio": 1350000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs3.jpg"
+  },
+  {
+    "id": 4,
+    "categoria": "pcs",
+    "nombre": "PC Básica",
+    "descripcion": "Intel i3, 8GB RAM, HDD 1TB",
+    "precio": 280000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs4.jpg"
+  },
+  {
+    "id": 5,
+    "categoria": "pcs",
+    "nombre": "PC Diseño Gráfico",
+    "descripcion": "Intel i7, 16GB RAM, SSD 512GB",
+    "precio": 780000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs5.jpg"
+  },
+  {
+    "id": 6,
+    "categoria": "pcs",
+    "nombre": "PC Streaming",
+    "descripcion": "Ryzen 9, 32GB RAM, SSD 1TB, RTX 4080",
+    "precio": 1800000,
+    "imagen": "../assets/imagenes/pcdeescriorio/pcs6.jpg"
+  },
+
+  {
+    "id": 7,
+    "categoria": "laptops",
+    "nombre": "Laptop Gaming Alpha X",
+    "descripcion": "Ryzen 7, 16GB RAM, RTX 3050, SSD 512GB",
+    "precio": 900,
+    "imagen": "../assets/imagenes/laptops/laptop1.jpg"
+  },
+  {
+    "id": 8,
+    "categoria": "laptops",
+    "nombre": "Laptop Workstation Pro X",
+    "descripcion": "Intel i7, 32GB RAM, SSD 1TB",
+    "precio": 1250,
+    "imagen": "../assets/imagenes/laptops/laptop2.jpg"
+  },
+  {
+    "id": 9,
+    "categoria": "laptops",
+    "nombre": "Laptop Home Basic",
+    "descripcion": "Intel i5, 8GB RAM, SSD 256GB",
+    "precio": 520,
+    "imagen": "../assets/imagenes/laptops/laptop3.jpg"
+  },
+  {
+    "id": 10,
+    "categoria": "laptops",
+    "nombre": "Laptop Gaming Beast",
+    "descripcion": "Ryzen 9, 32GB RAM, RTX 4060",
+    "precio": 1500,
+    "imagen": "../assets/imagenes/laptops/laptop4.jpg"
+  },
+  {
+    "id": 11,
+    "categoria": "laptops",
+    "nombre": "Laptop Ultra Slim",
+    "descripcion": "Intel i5, 16GB RAM, SSD 512GB",
+    "precio": 780,
+    "imagen": "../assets/imagenes/laptops/laptop5.jpg"
+  },
+  {
+    "id": 12,
+    "categoria": "laptops",
+    "nombre": "Laptop Student Pro",
+    "descripcion": "Intel i3, 8GB RAM, SSD 256GB",
+    "precio": 480,
+    "imagen": "../assets/imagenes/laptops/laptop6.jpg"
+  },
+  {
+    "id": 13,
+    "categoria": "laptops",
+    "nombre": "Laptop Creator Studio",
+    "descripcion": "Intel i7, 16GB RAM, RTX 3060",
+    "precio": 1350,
+    "imagen": "../assets/imagenes/laptops/laptop7.jpg"
+  },
+  {
+    "id": 14,
+    "categoria": "laptops",
+    "nombre": "Laptop Business Elite",
+    "descripcion": "Intel i7, 16GB RAM, SSD 512GB",
+    "precio": 1100,
+    "imagen": "../assets/imagenes/laptops/laptop8.jpg"
+  },
+  {
+    "id": 15,
+    "categoria": "laptops",
+    "nombre": "Laptop Eco Budget",
+    "descripcion": "Intel i3, 4GB RAM, HDD 500GB",
+    "precio": 350,
+    "imagen": "../assets/imagenes/laptops/laptop9.jpg"
+  },
+  {
+    "id": 16,
+    "categoria": "laptops",
+    "nombre": "Laptop Gaming Nitro",
+    "descripcion": "Ryzen 5, 16GB RAM, GTX 1660",
+    "precio": 950,
+    "imagen": "../assets/imagenes/laptops/laptop10.jpg"
+  },
+  {
+    "id": 17,
+    "categoria": "laptops",
+    "nombre": "Laptop Premium Touch",
+    "descripcion": "Intel i7, 16GB RAM, SSD 1TB",
+    "precio": 1400,
+    "imagen": "../assets/imagenes/laptops/laptop11.jpg"
+  },
+  {
+    "id": 18,
+    "categoria": "laptops",
+    "nombre": "Laptop Everyday Use",
+    "descripcion": "Intel i5, 8GB RAM, SSD 512GB",
+    "precio": 600,
+    "imagen": "../assets/imagenes/laptops/laptop12.jpg"
+  },
+
+  {
+    "id": 19,
+    "categoria": "accesorios",
+    "nombre": "Joy-Con Controller Set",
+    "descripcion": "Controles inalámbricos compatibles",
+    "precio": 65,
+    "imagen": "../assets/imagenes/accesorios/001.jpg"
+  },
+  {
+    "id": 20,
+    "categoria": "accesorios",
+    "nombre": "Silla Gamer Pro RGB",
+    "descripcion": "Silla ergonómica con iluminación LED",
+    "precio": 180,
+    "imagen": "../assets/imagenes/accesorios/002.jpg"
+  },
+  {
+    "id": 21,
+    "categoria": "accesorios",
+    "nombre": "Cámara Web Full HD",
+    "descripcion": "Cámara 1080p con micrófono",
+    "precio": 55,
+    "imagen": "../assets/imagenes/accesorios/003.jpg"
+  },
+  {
+    "id": 22,
+    "categoria": "accesorios",
+    "nombre": "Audífonos Bluetooth",
+    "descripcion": "Auriculares inalámbricos",
+    "precio": 40,
+    "imagen": "../assets/imagenes/accesorios/004.jpg"
+  },
+  {
+    "id": 23,
+    "categoria": "accesorios",
+    "nombre": "Hub USB",
+    "descripcion": "Expansor de puertos USB",
+    "precio": 35,
+    "imagen": "../assets/imagenes/accesorios/006.jpg"
+  },
+  {
+  "id": 24,
+  "categoria": "accesorios",
+  "nombre": "Mouse Gamer RGB",
+  "descripcion": "Mouse óptico con iluminación RGB y DPI ajustable",
+  "precio": 45,
+  "imagen": "../assets/imagenes/accesorios/007.jpg"
+},
+{
+  "id": 25,
+  "categoria": "accesorios",
+  "nombre": "Mouse Wireless Pastel",
+  "descripcion": "Mouse inalámbrico con batería recargable",
+  "precio": 25,
+  "imagen": "../assets/imagenes/accesorios/008.jpg"
+},
+{
+  "id": 26,
+  "categoria": "accesorios",
+  "nombre": "Mouse Minimalista",
+  "descripcion": "Mouse ergonómico ligero para uso diario",
+  "precio": 22,
+  "imagen": "../assets/imagenes/accesorios/009.jpg"
+},
+{
+  "id": 27,
+  "categoria": "accesorios",
+  "nombre": "Teclado Mecánico RGB",
+  "descripcion": "Teclado gaming con switches mecánicos",
+  "precio": 85,
+  "imagen": "../assets/imagenes/accesorios/010.jpg"
+},
+{
+  "id": 28,
+  "categoria": "accesorios",
+  "nombre": "Teclado Retro Rosa",
+  "descripcion": "Teclado compacto estilo vintage",
+  "precio": 60,
+  "imagen": "../assets/imagenes/accesorios/011.jpg"
+},
+{
+  "id": 29,
+  "categoria": "accesorios",
+  "nombre": "Teclado Gamer RGB Pro",
+  "descripcion": "Teclado completo con iluminación personalizable",
+  "precio": 95,
+  "imagen": "../assets/imagenes/accesorios/012.jpg"
+},
+{
+  "id": 30,
+  "categoria": "accesorios",
+  "nombre": "Silla Gamer Deluxe",
+  "descripcion": "Silla reclinable con soporte lumbar",
+  "precio": 200,
+  "imagen": "../assets/imagenes/accesorios/013.jpg"
+},
+{
+  "id": 31,
+  "categoria": "accesorios",
+  "nombre": "Silla Gamer Blanca Premium",
+  "descripcion": "Diseño elegante con materiales de alta calidad",
+  "precio": 220,
+  "imagen": "../assets/imagenes/accesorios/014.jpg"
+},
+{
+  "id": 32,
+  "categoria": "accesorios",
+  "nombre": "Silla Gamer Edition Anime",
+  "descripcion": "Diseño temático con acolchado extra",
+  "precio": 210,
+  "imagen": "../assets/imagenes/accesorios/015.jpg"
+},
+{
+  "id": 33,
+  "categoria": "accesorios",
+  "nombre": "Control Retro Wireless",
+  "descripcion": "Control inalámbrico estilo clásico",
+  "precio": 50,
+  "imagen": "../assets/imagenes/accesorios/016.jpg"
+},
+{
+  "id": 34,
+  "categoria": "accesorios",
+  "nombre": "Control Dual Gaming Azul",
+  "descripcion": "Gamepad ergonómico con conexión USB",
+  "precio": 55,
+  "imagen": "../assets/imagenes/accesorios/017.jpg"
+},
+{
+  "id": 35,
+  "categoria": "accesorios",
+  "nombre": "Control Pro Inalámbrico",
+  "descripcion": "Control con vibración y alta precisión",
+  "precio": 70,
+  "imagen": "../assets/imagenes/accesorios/018.jpg"
+},
+{
+  "id": 36,
+  "categoria": "accesorios",
+  "nombre": "Bolso Gamer Portátil",
+  "descripcion": "Bolso resistente para accesorios",
+  "precio": 45,
+  "imagen": "../assets/imagenes/accesorios/019.jpg"
+}
+]

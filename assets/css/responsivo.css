@@ -1,0 +1,131 @@
+/* =========================================
+   TABLET (max 992px)
+========================================= */
+@media (max-width: 992px) {
+
+    /* NAVBAR */
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .nav-link {
+        padding: 10px 0;
+    }
+
+    /* HERO */
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+
+    /* TARJETAS */
+    .card img {
+        height: 180px !important;
+    }
+}
+
+/* =========================================
+   MOBILE (max 768px)
+========================================= */
+@media (max-width: 768px) {
+
+    /* HERO */
+    header {
+        padding: 40px 15px !important;
+    }
+
+    header h1 {
+        font-size: 1.7rem;
+    }
+
+    header p {
+        font-size: 0.95rem;
+    }
+
+    /* TARJETAS */
+    .card {
+        border-radius: 15px;
+    }
+
+    .card img {
+        height: 160px !important;
+    }
+
+    .card h3, .card h5 {
+        font-size: 1.1rem;
+    }
+
+    /* BOTONES */
+    .btn {
+        font-size: 0.9rem;
+        padding: 6px 10px;
+    }
+
+    /* SECCIONES */
+    section {
+        padding: 20px 10px !important;
+    }
+
+    /* CARRITO */
+    #tarjetas-carrito div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    #tarjetas-carrito button {
+        width: 100%;
+    }
+}
+
+/* =========================================
+   MOBILE PEQUEÑO (max 576px)
+========================================= */
+@media (max-width: 576px) {
+
+    /* LOGO */
+    .navbar-brand img {
+        width: 90px;
+    }
+
+    /* HERO */
+    header h1 {
+        font-size: 1.4rem;
+    }
+
+    header p {
+        font-size: 0.85rem;
+    }
+
+    /* TARJETAS */
+    .card img {
+        height: 140px !important;
+    }
+
+    /* TEXTOS */
+    h2 {
+        font-size: 1.3rem;
+    }
+
+    /* FOOTER */
+    footer p {
+        font-size: 0.85rem;
+    }
+}
+
+/* =========================================
+   EXTRA GRANDE (pantallas grandes)
+========================================= */
+@media (min-width: 1200px) {
+
+    header h1 {
+        font-size: 3rem;
+    }
+
+    .card img {
+        height: 220px !important;
+    }
+}
