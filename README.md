@@ -1,2 +1,0 @@
-# proyectowebfinal
-tienda de tecnologia
