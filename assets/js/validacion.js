@@ -84,7 +84,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       respuesta.innerHTML = `
         <div class="alert alert-danger mt-3">
-          ❌ Corrige los errores del formulario
+           Corrige los errores del formulario
         </div>
       `;
     }
